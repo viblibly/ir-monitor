@@ -6,10 +6,8 @@
 $dev="/dev/input/event1";
 $f=fopen($dev, 'rb');
 
-//
-//// Что бы понять, какой код отправляет та или иная кнопка твоего IR пульта, запусти
-//// cat /dev/input/event1 | hexdump
-//
+// Что бы понять, какой код отправляет та или иная кнопка твоего IR пульта, запусти
+// cat /dev/input/event1 | hexdump
 
 if($f){
     while (!feof($f)){
