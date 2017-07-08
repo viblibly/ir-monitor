@@ -1,1 +1,1 @@
-# IR remote control script
+# IR remote control php script
