@@ -19,16 +19,16 @@ if($f){
         
         switch($button){
             case "0047": 
-            if ($key=="0001"){shell_exec("/home/cubie/proj/ir-vlc/next.sh");} //следующий канал
+            if ($key=="0001"){shell_exec("/home/cubie/next.sh");} // следующий канал - telnet запросы к VLC 
             break;
             case "0046": 
-            if ($key=="0001"){shell_exec("/home/cubie/proj/ir-vlc/prev.sh");} // предыдущий канал
+            if ($key=="0001"){shell_exec("/home/cubie/prev.sh");} // предыдущий канал
             break;
             case "0043": 
-            if ($key=="0001"){shell_exec("/home/cubie/proj/ir-vlc/volup.sh");} // громкость+
+            if ($key=="0001"){shell_exec("/home/cubie/volup.sh");} // громкость+
             break;
             case "0040":
-            if ($key=="0001"){shell_exec("/home/cubie/proj/ir-vlc/voldown.sh");} // вообщем, shell_exec, ты понял.
+            if ($key=="0001"){shell_exec("/home/cubie/poweroff.sh");} // вообщем, shell_exec
             break;
         }
        
